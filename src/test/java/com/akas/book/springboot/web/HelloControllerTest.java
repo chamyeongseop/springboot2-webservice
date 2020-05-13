@@ -12,7 +12,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
-@RestController //
 public class HelloControllerTest {
 
     @Autowired //
